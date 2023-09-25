@@ -16,4 +16,8 @@ navegador.find_element('xpath','//*[@id="txtSenha"]').send_keys(login_info.send_
 
 navegador.find_element('xpath','//*[@id="btnEntrar"]').click()
 
+navegador.find_element('xpath', '//*[@id="imagem18"]').click()
+
+navegador.find_element('xpath', '//*[@id="imagem56"]').click()
+
 # Como posso controlar a janela para marcação apropriada do ponto?
